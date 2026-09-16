@@ -1,61 +1,120 @@
-# CodeIgniter 4 Framework
+# Portfolio BUT Informatique
 
-## What is CodeIgniter?
+Ce projet est un portfolio personnel réalisé avec le framework PHP CodeIgniter 4. Il présente :
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+- le profil de l’étudiant,
+- les compétences du BUT Informatique,
+- les projets réalisés,
+- les informations de contact.
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+Le site est conçu pour être moderne, immersif et inspiré d’un style “tech / cyber / portfolio”.
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+## Présentation du site
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+Le projet contient :
 
-## Important Change with index.php
+- une page d’accueil avec présentation du profil,
+- un menu latéral avec les compétences du BUT,
+- une page par compétence (`/competence/1`, `/competence/2`, `/competence/3`),
+- un design avec fond animé, boutons, cards et typographie inspirée du monde numérique.
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+La structure principale est la suivante :
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+- `app/Controllers` : contrôleurs PHP
+- `app/Views` : fichiers HTML / vues
+- `app/Config/Routes.php` : routes du site
+- `public/assets` : CSS, JS, images
 
-**Please** read the user guide for a better explanation of how CI4 works!
+## Fonctionnement
 
-## Repository Management
+Le site fonctionne sur le principe d’une architecture MVC :
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+- le contrôleur reçoit la requête,
+- la route décide quelle page afficher,
+- la vue affiche le contenu HTML,
+- le CSS et le JavaScript donnent le rendu visuel.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+Par exemple :
 
-## Contributing
+- `/` affiche la page d’accueil
+- `/competence/1` affiche la compétence 1
+- `/competence/2` affiche la compétence 2
+- `/competence/3` affiche la compétence 3
 
-We welcome contributions from the community.
+## Prérequis
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+Avant de lancer le projet, vérifie que tu as bien :
 
-## Server Requirements
+- PHP 8.2 ou plus
+- Composer installé
+- les extensions PHP nécessaires : `intl`, `mbstring`
 
-PHP version 8.2 or higher is required, with the following extensions installed:
+## Installation
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+1. Ouvre un terminal dans le dossier du projet.
+2. Installe les dépendances PHP :
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - The end of life date for PHP 8.1 was December 31, 2025.
-> - If you are still using below PHP 8.2, you should upgrade immediately.
-> - The end of life date for PHP 8.2 will be December 31, 2026.
+```bash
+composer install
+```
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+3. Copie le fichier d’environnement :
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+```bash
+cp env .env
+```
+
+4. Vérifie que le fichier `.env` est bien présent.
+
+## Lancer le site
+
+### Option 1 : serveur intégré PHP
+
+```bash
+php -S localhost:8080 -t public
+```
+
+Puis ouvre dans le navigateur :
+
+```text
+http://localhost:8080
+```
+
+### Option 2 : avec CodeIgniter
+
+```bash
+php spark serve
+```
+
+Par défaut, le site sera accessible sur une adresse locale de type :
+
+```text
+http://localhost:8080
+```
+
+## Points importants
+
+- Le point d’entrée du site est dans le dossier `public/`.
+- Il faut toujours accéder au site via `public`, pas directement à la racine du projet.
+- Si tu modifies les routes, vérifie bien que les liens utilisent les chemins corrects, par exemple :
+
+```html
+<a href="/competence/2">C2 — Optimiser</a>
+```
+
+## Développement
+
+Si tu veux continuer le projet :
+
+- ajoute de nouvelles vues dans `app/Views`
+- ajoute les contrôleurs nécessaires dans `app/Controllers`
+- modifie les routes dans `app/Config/Routes.php`
+- personnalise le design dans `public/assets/css/style.css`
+
+## Auteur
+
+Nicolas Delpech
+
+## Licence
+
+Projet réalisé dans le cadre du BUT Informatique.

@@ -1,8 +1,8 @@
 <main>
     <section class="comp-header">
-        <div class="code-badge">[ BIN52 ]</div>
-        <h1 class="comp-title">Optimiser des applications C2</h1>
-        <p class="comp-desc">Optimiser des applications informatiques et en garantir la qualité.</p>
+        <div class="code-badge">[ <?=$data['code']?> ]</div>
+        <h1 class="comp-title"><?=$data['title']?></h1>
+        <p class="comp-desc"><?=$data['description']?></p>
     </section>
 
     <section>
@@ -19,16 +19,9 @@
         <div class="eyebrow-line"><span>UNITÉS D'ENSEIGNEMENT ASSOCIÉES</span><i></i></div>
         <div class="ue-chips">
             <ul class="skills-list">
-                <li>Qualité algorithmique</li>
-                <li>Programmation avancée</li>
-                <li>Sensibilisation à la programmation multimédia</li>
-                <li>Automatisation de la chaîne de production</li>
-                <li>Qualité de développement</li>
-                <li>Virtualisation avancée</li>
-                <li>Nouveaux paradigmes de bases de données</li>
-                <li>Économie durable et numérique</li>
-                <li>Anglais</li>
-                <li>Développement avancé</li>
+                <?php foreach ($data['ressources'] as $ressource): ?>
+                    <li class="ue-chip"><?=$ressource?></li>
+                <?php endforeach; ?>
             </ul>
         </div>
     </section>
@@ -36,11 +29,7 @@
     <section>
         <div class="eyebrow-line"><span>Où je me situe</span><i></i></div>
         <p>
-            Dans cette compétence, je me situe plus dans la partie Programmation avancée 
-            et Qualité de développement. J’ai pu mettre en pratique mes connaissances en programmation 
-            pour améliorer la qualité et l’efficacité des applications que j’ai développées. 
-            J’ai également appris à identifier les points faibles du code et à les corriger pour 
-            optimiser les performances globales des applications.
+            <?=$data['situation']?>
         </p>
     </section>
 </main>

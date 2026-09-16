@@ -30,17 +30,17 @@
             <div class="eyebrow-line"><span>LES COMPÉTENCES</span><i></i></div>
             <h2 class="title">Le référentiel BUT</h2>
             <div class="comp-grid">
-                <a class="comp-card" href="./competence1.html">
+                <a class="comp-card" href="./competence.php">
                     <div class="code">C1</div>
                     <h3>Réaliser</h3>
                     <p>Développer des applications en réponse à un besoin métier identifié.</p>
                 </a>
-                <a class="comp-card" href="./competence2.html">
+                <a class="comp-card" href="./competence2.php">
                     <div class="code">C2</div>
                     <h3>Optimiser</h3>
                     <p>Optimiser des applications informatiques et en garantir la qualité.</p>
                 </a>
-                <a class="comp-card" href="./competence3.html">
+                <a class="comp-card" href="./competence3.php">
                     <div class="code">C3</div>
                     <h3>Collaborer</h3>
                     <p>Travailler en équipe, partager les tâches et participer à la réussite d’un projet collectif.</p>
@@ -65,9 +65,9 @@
                 <a class="contact-item" href="https://github.com/nicod1601">GitHub</a>
             </div>
         </section>
-
-        <footer>© 2026 Nicolas Delpech — Portfolio BUT Informatique</footer>
     </main>
+
+    @include('layout/footer');
 
     <script src="assets/js/style.js"></script>
 </body>

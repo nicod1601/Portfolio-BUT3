@@ -8,19 +8,43 @@
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+    <?php
+        $path = trim(service('request')->getPath(), '/');
+    ?>
     <canvas id="bg-canvas"></canvas>
 
     <!-- Sidebar -->
     <aside class="sidebar">
-        <div class="mark">NICOLAS<span>.DEV</span></div>
+        <div class="mark">NICOLAS DELPECH<span>.K1</span></div>
         <nav class="nav-links">
-            <a href="#about">Profile</a>
+            <?php if ($path === ''): ?>
+                <a href="#about">Profile</a>
+            <?php else: ?>
+                <a href="/">Accueil</a>
+            <?php endif; ?>
+
             <div class="nav-group">
                 <a href="#but">BUT</a>
                 <div class="nav-sub">
-                    <a href="./competence1.html">C1 — Réaliser</a>
-                    <a href="./competence2.html">C2 — Optimiser</a>
-                    <a href="./competence3.html">C3 — Collaborer</a>
+                    
+                    <?php if ($path === 'c1'): ?>
+                        <a href="c1" class="active">C1 — Réaliser</a>
+                    <?php else: ?>
+                        <a href="c1">C1 — Réaliser</a>
+                    <?php endif; ?>
+                    
+                    <?php if ($path === 'c2'): ?>
+                        <a href="c2" class="active">C2 — Optimiser</a>
+                    <?php else: ?>
+                        <a href="c2">C2 — Optimiser</a>
+                    <?php endif; ?>
+
+                    <?php if ($path === 'c3'): ?>
+                        <a href="c3" class="active">C3 — Collaborer</a>
+                    <?php else: ?>
+                        <a href="c3">C3 — Collaborer</a>
+                    <?php endif; ?>
+
                 </div>
             </div>
             <a href="./projet-travaille.html">Projets</a>

@@ -57,6 +57,24 @@
 
         .nav-links { display: flex; flex-direction: column; gap: 0.3rem; }
 
+        .nav-sub a.active {
+            color: var(--accent);
+            padding-left: 0.5rem;
+            font-weight: 600;
+        }
+
+        .nav-sub a.active::before {
+            content: '';
+            position: absolute;
+            left: -0.9rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 3px;
+            height: 60%;
+            background: var(--accent);
+        }
+        
+        
         .nav-links a {
             color: var(--text);
             text-decoration: none;

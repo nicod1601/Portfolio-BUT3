@@ -1,0 +1,644 @@
+CRITICAL - 2026-09-16 08:40:53 --> ArgumentCountError: Too few arguments to function App\Controllers\Competence::index(), 0 passed in /home/etudiant/dn230916/Documents/Portfolio-BUT3/system/CodeIgniter.php on line 974 and exactly 1 expected
+[Method: GET, Route: competence/1]
+in APPPATH/Controllers/Competence.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->index()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 08:44:21 --> TypeError: App\Controllers\Competence::competence(): Argument #1 ($id) must be of type int, string given, called in /home/etudiant/dn230916/Documents/Portfolio-BUT3/system/CodeIgniter.php on line 974
+[Method: GET, Route: competence/1]
+in APPPATH/Controllers/Competence.php on line 7.
+ 1 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->competence()
+ 2 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 4 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 6 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+ 7 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:10:38 --> ParseError: syntax error, unexpected end of file
+[Method: GET, Route: competence/1]
+in APPPATH/Views/layout/header.php on line 33.
+ 1 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Competence.php(76): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->competence()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:12 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: competence/1]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence.php(76): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->competence()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:12 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: competence/1]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence.php(76): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->competence()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:13 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: competence/1]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence.php(76): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->competence()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:13 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: competence/1]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence.php(76): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->competence()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:13 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: competence/1]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence.php(76): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->competence()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:15 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: competence/3]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence.php(76): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->competence()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:15 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: competence/2]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence.php(76): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence->competence()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:16 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:18 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:18 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:18 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:19 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:22 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:23 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:23 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:23 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:23 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:12:23 --> ArgumentCountError: current() expects exactly 1 argument, 0 given
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 18.
+ 1 APPPATH/Views/layout/header.php(18): current()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:02 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:02 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:02 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:03 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:03 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:13 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:13 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:14 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:14 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:14 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:14 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:14 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:14 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:15 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:15 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 09:15:27 --> ErrorException: Undefined property: CodeIgniter\View\View::$request
+[Method: GET, Route: /]
+in APPPATH/Views/layout/header.php on line 17.
+ 1 APPPATH/Views/layout/header.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/layout/header.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 10:07:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "competences\c1.php"
+[Method: GET, Route: c1]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Competence1.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 10:07:14 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "competences\c1.php"
+[Method: GET, Route: c1]
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 39.
+ 1 SYSTEMPATH/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+ 2 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 3 APPPATH/Controllers/Competence1.php(9): view()
+ 4 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence1->index()
+ 5 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 7 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+ 9 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+10 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 10:08:09 --> ErrorException: Undefined variable $data
+[Method: GET, Route: c3]
+in APPPATH/Views/competences/c3.php on line 3.
+ 1 APPPATH/Views/competences/c3.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/competences/c3.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence3.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence3->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 10:08:19 --> ErrorException: Undefined variable $data
+[Method: GET, Route: c3]
+in APPPATH/Views/competences/c3.php on line 3.
+ 1 APPPATH/Views/competences/c3.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/competences/c3.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence3.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence3->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 10:08:40 --> ErrorException: Undefined variable $data
+[Method: GET, Route: c3]
+in APPPATH/Views/competences/c3.php on line 3.
+ 1 APPPATH/Views/competences/c3.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/competences/c3.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence3.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence3->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 10:08:43 --> ErrorException: Undefined variable $data
+[Method: GET, Route: c3]
+in APPPATH/Views/competences/c3.php on line 3.
+ 1 APPPATH/Views/competences/c3.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/competences/c3.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence3.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence3->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
+CRITICAL - 2026-09-16 10:08:45 --> ErrorException: Undefined variable $data
+[Method: GET, Route: c3]
+in APPPATH/Views/competences/c3.php on line 3.
+ 1 APPPATH/Views/competences/c3.php(3): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(240): include('/home/etudiant/dn230916/Documents/Portfolio-BUT3/app/Views/competences/c3.php')
+ 3 SYSTEMPATH/View/View.php(243): CodeIgniter\View\View->{closure:CodeIgniter\View\View::render():237}()
+ 4 SYSTEMPATH/Common.php(1268): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Competence3.php(9): view()
+ 6 SYSTEMPATH/CodeIgniter.php(974): App\Controllers\Competence3->index()
+ 7 SYSTEMPATH/CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest()
+ 9 SYSTEMPATH/Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Boot.php(68): CodeIgniter\Boot::runCodeIgniter()
+11 FCPATH/index.php(59): CodeIgniter\Boot::bootWeb()
+12 SYSTEMPATH/rewrite.php(44): require_once('/home/etudiant/dn230916/Documents/Portfolio-BUT3/public/index.php')
