@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicolas Delpech — Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Chakra+Petch:wght@700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Chakra+Petch:wght@700&family=Space+Mono:wght@400;700&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
     <link href="/assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>

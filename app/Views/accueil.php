@@ -69,6 +69,6 @@
 
     @include('layout/footer');
 
-    <script src="assets/js/style.js"></script>
+    <script src="/assets/js/style.js"></script>
 </body>
 </html>
