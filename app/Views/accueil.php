@@ -1,7 +1,7 @@
     <main>
         <!-- Hero -->
         <section class="hero" id="home">
-            <h1 class="glitch" data-text="PORTFOLIO">PORTFOLIO</h1>
+            <h1 class="glitch">PORTFOLIO</h1>
             <p class="tagline"><strong>Nicolas Delpech</strong> — Étudiant en BUT Informatique, 1ère année. Bienvenue sur mon espace professionnel.</p>
         </section>
 
@@ -49,7 +49,7 @@
         </section>
 
         <!-- Projets -->
-        <section id="projets">
+        <section id="projet">
             <div class="eyebrow-line"><span>PROJETS</span><i></i></div>
             <div class="projets-panel">
                 <p>Retrouve l'ensemble des projets réalisés pendant ma formation, avec le détail des technologies utilisées et mon rôle sur chacun d'eux.</p>

@@ -6,16 +6,6 @@
     </section>
 
     <section>
-        <div class="eyebrow-line"><span>CE QUE ÇA RECOUVRE</span><i></i></div>
-        <ul class="skills-list">
-            <li>Analyser un besoin et concevoir une solution logicielle adaptée</li>
-            <li>Développer en respectant les bonnes pratiques de programmation</li>
-            <li>Automatiser les processus de build, de test et de déploiement</li>
-            <li>Assurer la qualité et la maintenabilité du code</li>
-        </ul>
-    </section>
-
-    <section>
         <div class="eyebrow-line"><span>UNITÉS D'ENSEIGNEMENT ASSOCIÉES</span><i></i></div>
         <div class="ue-chips">
             <ul class="skills-list">

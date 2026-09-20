@@ -188,62 +188,11 @@ section {
     font-weight: 700;
     line-height: 1.05;
     letter-spacing: 0.03em;
-    position: relative;
     width: fit-content;
-    color: var(--text);
-    text-shadow:
-        2px 3px 0 rgba(155,107,255,0.55),
-        -2px -2px 0 rgba(255,92,138,0.4);
-}
-
-/* Effet glitch : deux calques dupliqués via data-text, décalés et animés */
-.glitch {
-    text-shadow: none;
-}
-
-.glitch::before,
-.glitch::after {
-    content: attr(data-text);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: var(--bg);
-    overflow: hidden;
-}
-
-.glitch::before {
-    left: 3px;
-    color: var(--accent);
-    clip-path: inset(0 0 55% 0);
-    animation: glitch-top 4.5s infinite linear alternate-reverse;
-}
-
-.glitch::after {
-    left: -3px;
-    color: var(--accent2);
-    clip-path: inset(45% 0 0 0);
-    animation: glitch-bottom 4.5s infinite linear alternate-reverse;
-}
-
-@keyframes glitch-top {
-    0%, 92%, 100% { transform: translate(0, 0); }
-    93% { transform: translate(-3px, -1px); }
-    95% { transform: translate(3px, 1px); }
-    97% { transform: translate(-2px, 1px); }
-}
-
-@keyframes glitch-bottom {
-    0%, 92%, 100% { transform: translate(0, 0); }
-    93% { transform: translate(3px, 1px); }
-    95% { transform: translate(-3px, -1px); }
-    97% { transform: translate(2px, -1px); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .glitch::before,
-    .glitch::after { animation: none; }
+    background: linear-gradient(90deg, var(--accent), var(--accent2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
 }
 
 .tagline {
@@ -513,13 +462,7 @@ footer {
 /* ==========================================================
    Projets — carrousel d'images (ajout)
    ========================================================== */
-
-/* Sécurité : évite le chevauchement avec la sidebar si la section
-   n'hérite pas du margin-left de .main (ex: page chargée hors layout
-   standard), et centre le contenu dans l'espace restant. */
 #projets {
-    margin-left: var(--sidebar-w);
-    width: calc(100% - var(--sidebar-w));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -532,13 +475,6 @@ footer {
 #projets .proj-grid--carousel {
     width: 100%;
     max-width: 1100px;
-}
-
-@media (max-width: 820px) {
-    #projets {
-        margin-left: 0;
-        width: 100%;
-    }
 }
 
 .proj-grid--carousel {
