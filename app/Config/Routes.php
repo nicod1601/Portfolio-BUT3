@@ -9,6 +9,8 @@ $routes->get('competence/c1', 'Competence::competence/1');
 $routes->get('competence/c2', 'Competence::competence/2');
 $routes->get('competence/c3', 'Competence::competence/3');
 
+$routes->get('projet', 'Projet::index');
+
 
 /*
 $routes->get('c1', 'Competence1::index');

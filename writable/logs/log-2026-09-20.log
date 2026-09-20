@@ -1,0 +1,240 @@
+CRITICAL - 2026-09-20 13:34:48 --> ErrorException: Undefined variable $data
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 7.
+ 1 APPPATH\Views\projet.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(67): view('projet')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 13:35:09 --> ErrorException: Undefined variable $data
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 7.
+ 1 APPPATH\Views\projet.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(67): view('projet')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 13:35:27 --> ErrorException: Undefined variable $data
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 7.
+ 1 APPPATH\Views\projet.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(67): view('projet')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 13:35:28 --> ErrorException: Undefined variable $data
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 7.
+ 1 APPPATH\Views\projet.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(67): view('projet')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 13:35:28 --> ErrorException: Undefined variable $data
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 7.
+ 1 APPPATH\Views\projet.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(67): view('projet')
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 13:37:06 --> ErrorException: Undefined variable $data
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 7.
+ 1 APPPATH\Views\projet.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(67): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 13:37:31 --> ErrorException: Undefined variable $data
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 7.
+ 1 APPPATH\Views\projet.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(67): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 13:38:14 --> ErrorException: Undefined variable $data
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 7.
+ 1 APPPATH\Views\projet.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(63): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 13:38:16 --> ErrorException: Undefined variable $data
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 7.
+ 1 APPPATH\Views\projet.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 7)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(63): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 14:07:10 --> ErrorException: Undefined array key "situation"
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 41.
+ 1 APPPATH\Views\projet.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "situation"', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 41)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(72): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 14:07:14 --> ErrorException: Undefined array key "situation"
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 41.
+ 1 APPPATH\Views\projet.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "situation"', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 41)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(72): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 14:07:34 --> ErrorException: Undefined array key "situation"
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 41.
+ 1 APPPATH\Views\projet.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "situation"', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 41)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(72): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 14:07:35 --> ErrorException: Undefined array key "situation"
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 41.
+ 1 APPPATH\Views\projet.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "situation"', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 41)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(72): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 14:08:55 --> ErrorException: Undefined array key "situation"
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 41.
+ 1 APPPATH\Views\projet.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "situation"', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 41)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(72): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 14:08:55 --> ErrorException: Undefined array key "situation"
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 41.
+ 1 APPPATH\Views\projet.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "situation"', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 41)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(72): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')
+CRITICAL - 2026-09-20 14:08:57 --> ErrorException: Undefined array key "situation"
+[Method: GET, Route: projet]
+in APPPATH\Views\projet.php on line 41.
+ 1 APPPATH\Views\projet.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "situation"', 'C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php', 41)
+ 2 SYSTEMPATH\View\View.php(240): include('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\app\\Views\\projet.php')
+ 3 SYSTEMPATH\View\View.php(243): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1268): CodeIgniter\View\View->render('projet', [], true)
+ 5 APPPATH\Controllers\Projet.php(72): view('projet', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(974): App\Controllers\Projet->index()
+ 7 SYSTEMPATH\CodeIgniter.php(520): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Projet))
+ 8 SYSTEMPATH\CodeIgniter.php(363): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(417): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Admin\\OneDrive\\Documents\\GitHub\\Portfolio-BUT3\\public\\index.php')

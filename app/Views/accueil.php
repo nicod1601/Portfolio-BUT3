@@ -53,7 +53,7 @@
             <div class="eyebrow-line"><span>PROJETS</span><i></i></div>
             <div class="projets-panel">
                 <p>Retrouve l'ensemble des projets réalisés pendant ma formation, avec le détail des technologies utilisées et mon rôle sur chacun d'eux.</p>
-                <a class="btn" href="./projet-travaille.html">Voir les projets</a>
+                <a class="btn" href="/projet">Voir les projets</a>
             </div>
         </section>
 

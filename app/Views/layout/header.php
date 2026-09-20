@@ -19,6 +19,7 @@
         <nav class="nav-links">
             <?php if ($path === ''): ?>
                 <a href="#about">Profile</a>
+                <a href="#contact">Contact</a>
             <?php else: ?>
                 <a href="/">Accueil</a>
             <?php endif; ?>
@@ -47,8 +48,7 @@
 
                 </div>
             </div>
-            <a href="./projet-travaille.html">Projets</a>
-            <a href="#contact">Contact</a>
+            <a href="/projet">Projets</a>
         </nav>
         <div class="sidebar-foot">BUT Informatique — 1ère année</div>
     </aside>
