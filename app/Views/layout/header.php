@@ -27,22 +27,22 @@
                 <a href="#but">BUT</a>
                 <div class="nav-sub">
                     
-                    <?php if ($path === 'c1'): ?>
-                        <a href="c1" class="active">C1 — Réaliser</a>
+                    <?php if ($path === 'competence/c1'): ?>
+                        <a href="/competence/c1" class="active">C1 — Réaliser</a>
                     <?php else: ?>
-                        <a href="c1">C1 — Réaliser</a>
+                        <a href="/competence/c1">C1 — Réaliser</a>
                     <?php endif; ?>
                     
-                    <?php if ($path === 'c2'): ?>
-                        <a href="c2" class="active">C2 — Optimiser</a>
+                    <?php if ($path === 'competence/c2'): ?>
+                        <a href="/competence/c2" class="active">C2 — Optimiser</a>
                     <?php else: ?>
-                        <a href="c2">C2 — Optimiser</a>
+                        <a href="/competence/c2">C2 — Optimiser</a>
                     <?php endif; ?>
 
-                    <?php if ($path === 'c3'): ?>
-                        <a href="c3" class="active">C3 — Collaborer</a>
+                    <?php if ($path === 'competence/c3'): ?>
+                        <a href="/competence/c3" class="active">C3 — Collaborer</a>
                     <?php else: ?>
-                        <a href="c3">C3 — Collaborer</a>
+                        <a href="/competence/c3">C3 — Collaborer</a>
                     <?php endif; ?>
 
                 </div>
