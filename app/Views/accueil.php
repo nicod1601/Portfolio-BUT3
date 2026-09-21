@@ -2,7 +2,7 @@
         <!-- Hero -->
         <section class="hero" id="home">
             <h1 class="glitch">PORTFOLIO</h1>
-            <p class="tagline"><strong>Nicolas Delpech</strong> — Étudiant en BUT Informatique, 1ère année. Bienvenue sur mon espace professionnel.</p>
+            <p class="tagline"><strong>Nicolas Delpech</strong> — Étudiant en BUT Informatique, 3 ème année. Bienvenue sur mon espace professionnel.</p>
         </section>
 
         <!-- Accueil -->
@@ -10,7 +10,7 @@
             <div class="eyebrow-line"><span>Profile</span><i></i></div>
             <div class="about-grid">
                 <div class="about-photo">
-                    <img src="assets/images/profile.jpeg" alt="Photo de Nicolas Delpech">
+                    <img src="assets/images/profile/profile.png" alt="Photo de Nicolas Delpech">
                 </div>
                 <div class="about-text">
                     <p><b>Nicolas Delpech</b></p>
