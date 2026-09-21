@@ -33,12 +33,9 @@ class Projet extends BaseController
                                   L\'application permet de créer des graphes orientés ou non orientés, pondérés ou non pondérés. 
                                   Elle permet également de visualiser les graphes et d\'effectuer des algorithmes sur ceux-ci (parcours en profondeur, parcours en largeur, Dijkstra, etc.).',
                 'technique' => [
-                    'Laravel',
-                    'PHP',
-                    'PostgreSQL',
-                    'HTML',
-                    'CSS',
-                    'JavaScript',
+                    'Java',
+                    'Graphes',
+                    'Méthode optimisation',
                 ],
                 'images' => [
                     'assets/images/projet2/projet1.png',

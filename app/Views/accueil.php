@@ -14,7 +14,7 @@
                 </div>
                 <div class="about-text">
                     <p><b>Nicolas Delpech</b></p>
-                    <p>Étudiant en BUT Informatique, 1ère année.</p>
+                    <p>Étudiant en BUT Informatique, 3 ème année.</p>
                     <p><b>Parcours :</b> STI2D, BUT Informatique, Redoublement.</p>
                     <div class="tag-row">
                         <span>STI2D</span>
